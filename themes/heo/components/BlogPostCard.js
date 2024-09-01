@@ -29,7 +29,7 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
 
   return (
     <article
-      className={` ${COVER_HOVER_ENLARGE} ? 'hover:scale-110 transition-all duration-150' : ''}`}>
+      className={` ${COVER_HOVER_ENLARGE} ? '' : ''}`}>
       <div
         data-wow-delay='.2s'
         className={
