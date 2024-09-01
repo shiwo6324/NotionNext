@@ -48,7 +48,7 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
                 priority={index === 0}
                 src={post?.pageCoverThumbnail}
                 alt={post?.title}
-                className='h-60 w-full object-cover group-hover:brightness-75 transition-all duration-300'
+                className='h-60 hover:scale-110 transition-all duration-150 w-full object-cover group-hover:brightness-75 transition-all duration-300'
               />
             </div>
           </Link>
